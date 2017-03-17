@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/skull/Documents/Programming/JavaScript/pty-test/node-v0.12.6-darwin-x64/bin/node',
+1 verbose cli   '/Users/skull/Documents/Programming/JavaScript/pty-test/node-v0.12.6-darwin-x64/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose readDependencies loading dependencies from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/package.json
+5 warn package.json pty.js@0.2.8 No license field.
+6 verbose install where, deps [ '/Users/skull/Documents/Programming/JavaScript/pty-test/pty.js',
+6 verbose install   [ 'extend', 'nan', 'mocha' ] ]
+7 verbose install where, peers [ '/Users/skull/Documents/Programming/JavaScript/pty-test/pty.js',
+7 verbose install   [] ]
+8 verbose installManyTop reading for lifecycle /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/package.json
+9 info preinstall pty.js@0.2.8
+10 verbose installManyTop reading scoped package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/extend/package.json
+11 verbose installManyTop reading scoped package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/mocha/package.json
+12 verbose installManyTop reading scoped package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/nan/package.json
+13 info package.json extend@1.2.1 No license field.
+14 info package.json mocha@1.17.1 No license field.
+15 verbose readDependencies loading dependencies from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/package.json
+16 verbose targetResolver reading package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/extend/package.json
+17 verbose targetResolver reading package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/mocha/package.json
+18 verbose targetResolver reading package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/nan/package.json
+19 verbose targetResolver reading package data from /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js/node_modules/.bin/mocha/package.json
+20 verbose already installed skipping extend@~1.2.1 /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js
+21 verbose already installed skipping nan@^1.8.4 /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js
+22 verbose already installed skipping mocha@~1.17.1 /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js
+23 silly install resolved []
+24 info build /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js
+25 info linkStuff pty.js@0.2.8
+26 silly linkStuff pty.js@0.2.8 has /Users/skull/Documents/Programming/JavaScript/pty-test as its parent node_modules
+27 verbose linkBins pty.js@0.2.8
+28 verbose linkMans pty.js@0.2.8
+29 verbose rebuildBundles pty.js@0.2.8
+30 verbose rebuildBundles [ '.bin', 'extend', 'mocha', 'nan' ]
+31 info install pty.js@0.2.8
+32 verbose unsafe-perm in lifecycle true
+33 info pty.js@0.2.8 Failed to exec install script
+34 verbose stack Error: pty.js@0.2.8 install: `node-gyp rebuild`
+34 verbose stack Exit status 1
+34 verbose stack     at EventEmitter.<anonymous> (/Users/skull/Documents/Programming/JavaScript/pty-test/node-v0.12.6-darwin-x64/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+34 verbose stack     at EventEmitter.emit (events.js:110:17)
+34 verbose stack     at ChildProcess.<anonymous> (/Users/skull/Documents/Programming/JavaScript/pty-test/node-v0.12.6-darwin-x64/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+34 verbose stack     at ChildProcess.emit (events.js:110:17)
+34 verbose stack     at maybeClose (child_process.js:1015:16)
+34 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1087:5)
+35 verbose pkgid pty.js@0.2.8
+36 verbose cwd /Users/skull/Documents/Programming/JavaScript/pty-test/pty.js
+37 error Darwin 14.4.0
+38 error argv "/Users/skull/Documents/Programming/JavaScript/pty-test/node-v0.12.6-darwin-x64/bin/node" "/Users/skull/Documents/Programming/JavaScript/pty-test/node-v0.12.6-darwin-x64/bin/npm" "install"
+39 error node v0.12.6
+40 error npm  v2.11.2
+41 error code ELIFECYCLE
+42 error pty.js@0.2.8 install: `node-gyp rebuild`
+42 error Exit status 1
+43 error Failed at the pty.js@0.2.8 install script 'node-gyp rebuild'.
+43 error This is most likely a problem with the pty.js package,
+43 error not with npm itself.
+43 error Tell the author that this fails on your system:
+43 error     node-gyp rebuild
+43 error You can get their info via:
+43 error     npm owner ls pty.js
+43 error There is likely additional logging output above.
+44 verbose exit [ 1, true ]

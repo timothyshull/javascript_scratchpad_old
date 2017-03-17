@@ -1,0 +1,36 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "authors": [
+    "timothyshull <timothyshull@gmail.com>"
+  ],
+  "description": "A web server in Node",
+  "main": "package.json",
+  "keywords": [
+    "Node",
+    "Express"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "underscore": "http://underscorejs.org/underscore.js",
+    "r": "http://requirejs.org/docs/release/2.1.17/r.js",
+    "require": "http://requirejs.org/docs/release/2.1.17/comments/require.js",
+    "handlebars": "http://builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v3.0.3.js",
+    "backbone": "http://backbonejs.org/backbone.js",
+    "jquery": "http://code.jquery.com/jquery-2.1.4.js",
+    "modernizr": "http://modernizr.com/downloads/modernizr-latest.js",
+    "less": "~2.5.0"
+  },
+  "dependencies": {
+    "handlebars.runtime": "https://github.com/wycats/handlebars.js/blob/master/lib/handlebars.runtime.js",
+    "handlebars.runtime-1.0.rc.1": "https://cloud.github.com/downloads/wycats/handlebars.js/handlebars.runtime-1.0.rc.1.js",
+    "lodash": "https://raw.githubusercontent.com/lodash/lodash/3.8.0/lodash.js"
+  }
+}

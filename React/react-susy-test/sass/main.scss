@@ -1,0 +1,194 @@
+//@import "normalize";
+//@import "compass";
+//@import "../node_modules/susy/sass/susy";
+@import "~susy/sass/susy";
+
+// Configuring Susy Defaults
+$susy: (
+        global-box-sizing: border-box,
+        use-custom: (rem: true
+        )
+);
+
+@include border-box-sizing;
+@include container;
+//@include span(< width > [ < wide / wider > ] of < layout > [ < last > ]);
+
+/**
+ - Styles for AG grids & Container
+ */
+
+.container {
+  background-color: #fbeecb;
+}
+
+.ag1, .ag3 {
+  background-color: #71dad2;
+}
+
+.ag2 {
+  background-color: #fae7b3;
+}
+
+.ag4, .ag5, .ag8, .ag9 {
+  background-color: #ee9e9c;
+}
+
+.ag6 {
+  background-color: #f09671;
+}
+
+.ag7 {
+  background-color: #f6d784;
+}
+
+.ag10 {
+  background-color: #ea9fc3;
+}
+
+/**
+ - Text Styles
+ */
+h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+//// This has a width of 3 columns out of 9 columns
+//.some-selector {
+//  width: span(3 of 9);
+//}
+//
+//// This has a padding of 1 column out of 9 columns
+//.some-selector {
+//  padding-left: span(1 of 9);
+//}
+//
+//// This outputs margin that equals to 1 gutter width in a 9 column layout
+//.some-selector {
+//  margin-right: gutter(9);
+//}
+
+.container {
+  @include container;
+
+  // This is the default clearfix from Compass. You can opt to use other clearfix methods
+  //@include clearfix;
+}
+
+.ag1 {
+  @include span(2 of 10);
+}
+
+.ag2 {
+  @include span(6 of 10);
+  //@include clearfix;
+}
+
+.ag3 {
+  @include span(2 of 10 last);
+}
+
+.ag4 {
+  @include span(3 of 6);
+}
+
+.ag5 {
+  @include span(3 of 6 last);
+}
+
+.ag4, .ag5 {
+  @include span(3 of 6);
+}
+
+.ag5 {
+  @include last;
+}
+
+.ag6 {
+  @include span(2 of 6);
+}
+
+.ag7 {
+  @include span(4 of 6 last);
+  //@include clearfix;
+}
+
+.ag8 {
+  @include span(2 of 4);
+}
+
+.ag9 {
+  @include span(2 of 4 last);
+}
+
+.ag10 {
+  clear: both;
+  // Alternatively, you can now use the span mixin with the full keyword to tell Susy this should be a 100% width
+  // @include span(full);
+}
+
+// Start basic CSS from project
+
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}

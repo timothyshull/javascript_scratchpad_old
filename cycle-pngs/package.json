@@ -1,0 +1,28 @@
+{
+  "name": "cycle-pngs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "dependencies": {
+    "autoprefixer": "^6.0.3",
+    "bootstrap": "^3.3.5",
+    "css-loader": "^0.19.0",
+    "cssnano": "^3.2.0",
+    "file-loader": "^0.8.4",
+    "font-awesome": "^4.4.0",
+    "font-awesome-webpack": "^0.0.3",
+    "jquery": "^2.1.4",
+    "postcss": "^5.0.6",
+    "postcss-loader": "^0.6.0",
+    "style-loader": "^0.12.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

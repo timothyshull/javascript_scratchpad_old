@@ -1,0 +1,8 @@
+request=bake-request-type
+arg1,arg2,arg3
+---
+input_type_1,key_1=value1,key_2=value2
+input_type_2,key_3=value3,key_4=value4
+key_5=value5^^value6^^value7
+key_6=test-string
+key_7=10

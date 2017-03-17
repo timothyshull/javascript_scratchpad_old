@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Socket stream</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="stream"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/socket.io-stream.js"></script>
+<script src="/js/jquery.js"></script>
+<script>
+    $(function() {
+        var socket = io.connect(),
+                stream = ss.createStream();
+
+        ss(socket).emit('connect-stream', stream, {size: file.size});
+
+        socket.on('data', console.dir(data));
+
+//        $('.stream').change(function(e) {
+//            var file = e.target.files[0];
+//            var stream = ss.createStream();
+//
+//            // upload a file to the server.
+//            ss(socket).emit('file', stream, {size: file.size});
+//            ss.createBlobReadStream(file).pipe(stream);
+//        });
+    });
+</script>
+</body>
+</html>

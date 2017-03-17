@@ -1,0 +1,10 @@
+{
+  "general": [
+    "threads[0].messageGroups[0]",
+    "threads[1].messageGroups[0]"
+  ],
+  "bugs": [
+    "threads[0].messageGroups[1]",
+    "threads[1].messageGroups[0]"
+  ]
+}

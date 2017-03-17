@@ -1,0 +1,6 @@
+http://addyosmani.com/largescalejavascript/
+https://www.microsoft.com/en-GB/developers/articles/scalable-javascript-application-architecture
+https://eric-brechemier.github.io/lb_js_scalableApp/doc/javascript-application-design-patterns.pdf
+https://github.com/addyosmani/aura/
+http://scaleapp.org/readme.html#mediator
+https://github.com/flosse/scaleApp

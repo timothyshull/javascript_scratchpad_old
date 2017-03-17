@@ -1,0 +1,2 @@
+console.dir($);
+$('.selectpicker').selectpicker();

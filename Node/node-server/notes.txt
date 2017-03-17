@@ -1,0 +1,42 @@
+handlebars --amd *.hbs -f templates.js
+
+http://ianstormtaylor.com/rendering-views-in-backbonejs-isnt-always-simple/
+
+http://gregfranko.com/blog/using-backbone-dot-js-with-require-dot-js/
+
+need handlebars.runtime.amd
+
+lodash is faster and more consistent for a number of data manipulation methods, the library is larger though
+
+htmlbars is faster than handlebars
+
+can be precompiled with ember cli htmlbars or grunt ember templates
+
+Marionette provides -
+
+A Standardized Rendering process - Marionette takes an opinionated stand on how Views should be rendered. Without any
+additional configuration, it will take a template that you specify with a View's template property, compile it with
+Underscore's templating function and pass it a model or collection. If you need to pass it other data, or want to use a
+different template library, Marionette provides hooks to customize that process in a DRY way.
+
+A consistent View lifecycle - Marionette defines a consistent View life cycle where Views are initialized, rendered,
+shown, refreshed, and destroyed. Each of these events has events and callbacks associated it, and any common boilerplate
+associated with them is handled behind the scenes.
+
+The ability to define and manage complex layouts - Marionette provides region objects that define portions of the DOM
+that can display and swap out Views. Combined with utilities to manage child views, you can easily create deeply nested
+View structures with Marionette while minimizing complexity.
+
+A central event bus with semantic events to simplify communication between Views - Marionette includes Backbone.Wreqr or
+Backbone Radio as an event bus to allow communication between Views without explicitly coupling them.
+
+Helpers to help you write DRY Code - In addition to centralizing the rendering and view management code, Marionette
+provides hooks to allow you to abstract away details of the DOM and events in your View code, and a mechanism to pull
+common ui operations out into separate reusable objects
+
+Helpers to avoid "Zombie Views" and memory leaks - Marionette's lifecycle includes an explicit destroy phase that cleans
+up many common sources of memory leaks, and provides a hook for you to take care of the rest
+
+A central Application object to initialize your application - Using Marionette, you're able to specify a set of
+initializers that run any code that needs to be executed before your application starts, providing a clear structure
+and starting point to your app.

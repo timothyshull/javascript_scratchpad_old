@@ -1,0 +1,538 @@
+{
+  "channel1": {
+    "channelName": "channel1",
+    "metadata1": "metadata",
+    "metadata2": "metadata",
+    "threads": [
+      {
+        "threadName": "thread1",
+        "messageGroups": [
+          [
+            {
+              "author": "userId",
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "author": "userId",
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "author": "userId",
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "author": "userId",
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      },
+      {
+        "threadName": "thread2",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      },
+      {
+        "threadName": "thread3",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      }
+    ],
+    "tags": {
+      "general": [
+        "threads[0].messageGroups[0]",
+        "threads[1].messageGroups[0]"
+      ],
+      "bugs": [
+        "threads[0].messageGroups[1]",
+        "threads[1].messageGroups[0]"
+      ]
+    }
+  },
+  "channel2": {
+    "channelName": "channel2",
+    "metadata1": "metadata",
+    "metadata2": "metadata",
+    "threads": [
+      {
+        "threadName": "thread1",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      },
+      {
+        "threadName": "thread2",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      },
+      {
+        "threadName": "thread3",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      }
+    ],
+    "tags": {
+      "general": [
+        "threads[0].messageGroups[0]",
+        "threads[1].messageGroups[0]"
+      ],
+      "bugs": [
+        "threads[0].messageGroups[1]",
+        "threads[1].messageGroups[0]"
+      ]
+    }
+  },
+  "channel3": {
+    "channelName": "channel3",
+    "metadata1": "metadata",
+    "metadata2": "metadata",
+    "threads": [
+      {
+        "threadName": "thread1",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      },
+      {
+        "threadName": "thread2",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      },
+      {
+        "threadName": "thread3",
+        "messageGroups": [
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ],
+          [
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            },
+            {
+              "timestamp": "Apr 2, 2016 1:58PM",
+              "content": "Here's a message",
+              "tag": "general"
+            }
+          ]
+        ]
+      }
+    ],
+    "tags": {
+      "general": [
+        "threads[0].messageGroups[0]",
+        "threads[1].messageGroups[0]"
+      ],
+      "bugs": [
+        "threads[0].messageGroups[1]",
+        "threads[1].messageGroups[0]"
+      ]
+    }
+  }
+}

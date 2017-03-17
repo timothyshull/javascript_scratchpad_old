@@ -1,0 +1,25 @@
+{
+  "name": "more-backbone",
+  "version": "0.1.0",
+  "authors": [
+    "timothyshull <timothyshull@gmail.com>"
+  ],
+  "description": "More Backbone learning",
+  "main": "js/app.js",
+  "keywords": [
+    "Backbone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.1",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.0"
+  }
+}
